@@ -39,3 +39,9 @@ FROM CovidDeaths
 WHERE continent IS NOT NULL
   AND location LIKE '%India%'
 ORDER BY 1, 2;
+
+
+## Tableau Dashboard
+![Overview](tableau/dashboard_screenshots/covid-death-percentage-dashboard.png)
+
+👉 Live (interactive): < https://public.tableau.com/views/Covid_Deaths_Dashboard1/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link >
